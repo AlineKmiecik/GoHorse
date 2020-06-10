@@ -1,0 +1,42 @@
+﻿@page
+
+<!-- Banner -->
+<section id="banner">
+    <header>
+        <h2>Olá, selecione a opção desejada</h2>
+        <p>
+            Aqui você pode Agendar, Buscar, e Confirmar <strong>Viagens</strong>.
+        </p>
+    </header>
+</section>
+
+<!-- Carousel -->
+<section class="carousel">
+    <div class="reel">
+
+        <article>
+            <a asp-page="Agendar" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+            <header>
+                <h3><a asp-page="Agendar">Agendar</a></h3>
+            </header>
+            <p>Aqui você pode agendar sua viagem facilmente</p>
+        </article>
+
+        <article>
+            <a asp-page="Buscar" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+            <header>
+                <h3><a asp-page="Buscar">Buscar</a></h3>
+            </header>
+            <p>Aqui você pode buscar sua viagem facilmente</p>
+        </article>
+
+        <article>
+            <a asp-page="Confirmar" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+            <header>
+                <h3><a asp-page="Confirmar">Confirmar</a></h3>
+            </header>
+            <p>Aqui você pode confirmar sua viagem facilmente</p>
+        </article>
+
+    </div>
+</section>
